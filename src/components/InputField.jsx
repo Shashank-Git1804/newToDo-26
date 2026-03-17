@@ -32,7 +32,7 @@ export const InputField = ({date}) => {
     // console.log(input)
     input.data.length > 0 && dispatch({ type: AddTask, payload: input.data });
     let someData=JSON.stringify(input)
-    console.log(someData)
+    // console.log(someData)
     // localStorage.setItem('tasks',someData)
   }, [input.data]);
 
