@@ -91,7 +91,7 @@ export const ListTask = () => {
                     handleOncheck(evt,index)
                   }}
                 >
-                  {check !== index ? <ImRadioUnchecked /> : <FiCheckCircle />}
+                  {check !== index ? <ImRadioUnchecked /> : <FiCheckCircle style={{color:'rgb(17, 227, 17)'}}/>}
                 </span>{" "}
                 <span
                   style={{

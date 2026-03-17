@@ -18,7 +18,7 @@
 }
 #checked{
   text-decoration: line-through;
-  
+  /* color: rgb(17, 227, 17); */
 }
 
 /* #taskInput:focus{
